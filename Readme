@@ -1,0 +1,53 @@
+FILES PRESENT :-
+c
+c.exe
+c.py
+E.gif
+F.gif
+J.gif
+
+Whenever you execute c or c.exe or c.py ensure .gif files are present in the same directory.
+Google might warn while downloading c.exe I don't know why it is causing the error but if you download on your local pc it works.
+######################################################################
+
+About the game :-
+
+There are two characters Joe and Ely.
+Joe&#39;s task - Collect all the coins and ensure that Ely won&#39;t catch him.
+Joe&#39;s control keys -
+If pressed "w";, Joe should move up (only if there is no barrier above Joe).
+If pressed "s";, Joe should move down (only if there is no barrier below Joe).
+If pressed "d", Joe should move right (only if there is no barrier on the right side of Joe).
+If pressed "a", Joe should move left (only if there is no barrier on the left side of Joe).
+Ely's task - Catch Joe before he collects all the coins.
+Joe's score - In the beginning, Joe's score is 0. The score starts incrementing as soon as he
+starts collecting coins. The more he collects the coins, the more is his score.
+When should the game end?
+If Ely catches Joe, then the game just ends by displaying Joe&#39;s total score.
+If Joe has collected all the coins, then the game just ends by displaying Joe&#39;s total score.
+Necessary display during the gameplay -
+● Scores must be displayed on the screen all the time.
+● Movement of Joe and Ely on the map.
+● Coins (i.e. dots) on the map must disappear from the map as Joe collects them.
+● Ely can walk over the places where coins (i.e. dots) are placed and should not collect
+them as his task is only to catch Joe.
+● Ely should run by itself continuously towards Joe (should not be controlled by the
+player).
+Map description - [30 X 70]
+(Please note - You are not allowed to make changes to the map shown below. Only this map
+must be followed in your game.)
+1. "J" - Representing character Joe
+2. "E" - Representing character Ely
+3. "." - Representing coins
+4. "#" - Representing walls (Noone can run on them. These are representing barriers.)
+5."+"; - corners of the map
+
+6. "-" - upper and lower boundaries of the map (Your characters are not allowed to move outside
+these boundaries.)
+7. "|" - left and right boundaries of the map (Your characters are not allowed to move outside
+these boundaries.)
+
+
+
+There are 4 option each one is self explainatory.
+PLEASE: go through the note at the starting.
